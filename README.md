@@ -1,4 +1,4 @@
-All information can be found here: <a href="https://github.com/jan-sebastian-dzban/Cartoon-GAN/blob/main/Generative%20Adversarial%20Networks%20in%20Comic%20Art%20Design_paper.pdf">Link to the paper!</a>
+# All information can be found here: <a href="https://github.com/jan-sebastian-dzban/Cartoon-GAN/blob/main/Generative%20Adversarial%20Networks%20in%20Comic%20Art%20Design_paper.pdf">Link to the paper!</a>
 
 **Software Used**
 
