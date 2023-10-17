@@ -1,3 +1,5 @@
+All information can be found here: <a href="https://github.com/jan-sebastian-dzban/Cartoon-GAN/blob/main/Generative%20Adversarial%20Networks%20in%20Comic%20Art%20Design_paper.pdf">Link to the paper!</a>
+
 **Software Used**
 
 For the implementation, we utilized the Python language in version 3.7.12 [5] and GCCcore in version 8.3.0 (Debian 8.3.0-6).
