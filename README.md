@@ -1,9 +1,3 @@
-**6 Expirements**
-
-Each of the models detailed in Chapter 3, with the new approach LightAnimeGAN described in Chapter 4, were built and trained using PyTorch in the Python language. Regrettably, due to the high computational demand and time-consuming nature of training GANs, we were only able to train all of the discussed models on the Miyazaki Hayao dataset. However, as we anticipated that the AnimeGAN and LightAnimeGAN models would likely perform the best, these models were trained on both the Hayao and Shinakai datasets (Chapter 5) for a comparative evaluation of style transformation. During the implementation and training process, we followed the original authors’ recommendations but also took measures to ensure a fair comparison among the different architectures by adopting as many uniform parameters and training techniques as possible.
-
-In this section, we delve into the experiments, evaluation, and comparison of the models we described above. We explore each model individually, providing details on the implementation and training phases, as well as highlighting the unique parameters and characteristics inherent to each model. The software employed during the training phase is thoroughly discussed. We present the results achieved by each architecture, demonstrating their proficiency in converting real images into cartoons. The effectiveness of these conversions is visualized through combined plots and measured using Visual Inspection Analysis, User Study, and Frec´ het Inception Distance metrics. Additionally, we conduct a comparison of the style translations between the selected architectures.
-
 **Software Used**
 
 For the implementation, we utilized the Python language in version 3.7.12 [5] and GCCcore in version 8.3.0 (Debian 8.3.0-6).
@@ -90,7 +84,7 @@ the generated image from appearing excessively sharp.
 
 All of the experiments and training phases were executed using the repository shared by the LightAnimeGAN authors. The PyTorch implementation of the repository can be accessed via this link: LightAnimeGAN Repo.Given that LightAnimeGAN is heavily inspired by AnimeGAN model and shares the same loss functions, parameters, and learning techniques. The entire training and implementation process is the same as the one mentioned above for AnimeGAN (Section 6.2).
 
-3. **Overall Comparison**
+**Overall Comparison**
 
 As shown in Table 6.2, there are differences between the considered models in terms of the number of parameters in the generator network and the training time required for one epoch on the described dataset.
 
@@ -116,3 +110,8 @@ The LightAnimeGAN model, as suggested by its name, features the smallest generat
 
 It should be noted that while the number of parameters, model size, and training time are important factors to consider when choosing a model, they do not dictate the performance of the model in generating cartoon- like images. Other factors such as the quality of the output images and the ability of the model to capture the unique characteristics of the target domain are the most crucial factor.
 
+**Expirements**
+
+Each of the models detailed in Chapter 3, with the new approach LightAnimeGAN described in Chapter 4, were built and trained using PyTorch in the Python language. Regrettably, due to the high computational demand and time-consuming nature of training GANs, we were only able to train all of the discussed models on the Miyazaki Hayao dataset. However, as we anticipated that the AnimeGAN and LightAnimeGAN models would likely perform the best, these models were trained on both the Hayao and Shinakai datasets (Chapter 5) for a comparative evaluation of style transformation. During the implementation and training process, we followed the original authors’ recommendations but also took measures to ensure a fair comparison among the different architectures by adopting as many uniform parameters and training techniques as possible.
+
+In this section, we delve into the experiments, evaluation, and comparison of the models we described above. We explore each model individually, providing details on the implementation and training phases, as well as highlighting the unique parameters and characteristics inherent to each model. The software employed during the training phase is thoroughly discussed. We present the results achieved by each architecture, demonstrating their proficiency in converting real images into cartoons. The effectiveness of these conversions is visualized through combined plots and measured using Visual Inspection Analysis, User Study, and Frec´ het Inception Distance metrics. Additionally, we conduct a comparison of the style translations between the selected architectures.
